@@ -13,4 +13,10 @@ avatar = media.Movie("Avatar",
                      "https://www.youtube.com/watch?v=-9ceBgWV8io")
 
 print(avatar.storyline)
-avatar.show_trailer()
+
+the_empire_strikes_back = media.Movie("The Empire Strikes Back",
+                                      "Luke Skywalker battles Darth Vader",
+                                      "https://mattadavid.files.wordpress.com/2015/09/url-6.jpg",
+                                      "https://www.youtube.com/watch?v=mz_YWNhKOkM")
+
+the_empire_strikes_back.show_trailer()
