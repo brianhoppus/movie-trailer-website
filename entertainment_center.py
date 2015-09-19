@@ -1,6 +1,7 @@
 import media
 import fresh_tomatoes
 
+# Create six movie objects with a title, storyline, poster, and trailer
 toy_story = media.Movie("Toy Story",
                         "A story of a boy and his toys that come to life",
                         "http://cdn.hellogiggles.com/wp-content/uploads/2013/07/05/toystory.jpg",
@@ -31,10 +32,13 @@ city_slickers = media.Movie("City Slickers",
                             "http://www.impawards.com/1991/posters/city_slickers_xlg.jpg",
                             "https://www.youtube.com/watch?v=rpxVp1g8xMQ")
 
+# collect all movies in preperation fo rendering
 movies = [toy_story,
           avatar,
           the_empire_strikes_back,
           ghostbusters,
           beetlejuice,
           city_slickers]
+
+# generate the html file to serve content
 fresh_tomatoes.open_movies_page(movies)
