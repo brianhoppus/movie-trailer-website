@@ -1,4 +1,7 @@
+# standard library imports
 import media
+
+# third party imports
 import fresh_tomatoes
 
 # Create six movie objects with a title, storyline, poster, and trailer
